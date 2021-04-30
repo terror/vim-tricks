@@ -60,3 +60,41 @@ There are a few commands for aligning text horizontally in vim
 ### Example
 
 [![asciicast](https://asciinema.org/a/0xIOVtCTxidyWEUp73UY3lbF1.svg)](https://asciinema.org/a/0xIOVtCTxidyWEUp73UY3lbF1)
+
+## Retracing movements
+
+Sometimes it's useful to jump to previously
+modified positions in a file.
+
+- `'.` jump to last modified line
+- `` `.`` jump to exact spot in last modified line
+- `ctrl-O` retrace movements in file backwards (in
+  normal mode)
+- `ctrl-I` retrace movements in file forwards
+
+### Example
+
+[![asciicast](https://asciinema.org/a/ln86i0BzOUYSxctuAVVwIoQvs.svg)](https://asciinema.org/a/ln86i0BzOUYSxctuAVVwIoQvs)
+
+## Deleting/Changing inside X
+
+Programmers often work with parentheses (), brackets []
+and curly braces {}. It's often useful to wipe or
+modify contents in between them.
+
+- `di{insert key here}` to delete inside
+- `ci{insert key here}` to change inside
+
+### Nifty mappings
+
+Remapping the operators can save some time here:
+
+```vim
+onoremap b i[
+onoremap p i(
+onoremap cb i{
+```
+
+### Example
+
+[![asciicast](https://asciinema.org/a/zWHu591jlDFCvXEtso3cq9Fh3.svg)](https://asciinema.org/a/zWHu591jlDFCvXEtso3cq9Fh3)
