@@ -48,3 +48,15 @@ Digraphs are `special` characters such as the copyright symbol or accent grave.
 ### Example
 
 [![asciicast](https://asciinema.org/a/khI5inqQovOn1b2tyujFYwX9U.svg)](https://asciinema.org/a/khI5inqQovOn1b2tyujFYwX9U)
+
+## Aligning text
+
+There are a few commands for aligning text horizontally in vim
+
+- `:center` centers text
+- `:left` aligns text to the left
+- `:right` aligns text to the right
+
+### Example
+
+[![asciicast](https://asciinema.org/a/0xIOVtCTxidyWEUp73UY3lbF1.svg)](https://asciinema.org/a/0xIOVtCTxidyWEUp73UY3lbF1)
